@@ -1,5 +1,5 @@
 import cv2
-
+ 
 def inicializar_detector_de_roupas():
 
     classificador_de_roupas = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
